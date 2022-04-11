@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.Westside.TestCases.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.281 s <<< FAILURE! - in com.Westside.TestCases.HomePageTest
+TestHomePage_TC001(com.Westside.TestCases.HomePageTest)  Time elapsed: 44.981 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN0SDANTURTHI3', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\SDANTU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d7e880e45ecaef451011d39b3e2f05c
+*** Element info: {Using=xpath, value=//header[@class='page-header centeralign']/h1/span}
+	at com.Westside.TestCases.HomePageTest.TestHomePage_TC001(HomePageTest.java:18)
+

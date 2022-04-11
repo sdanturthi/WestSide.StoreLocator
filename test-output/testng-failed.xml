@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WestSide.StoreLocator]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="WestSide_Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Westside.TestCases.HomePageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TestHomePage_TC001"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.Westside.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- WestSide_Test(failed) -->
+</suite> <!-- Failed suite [WestSide.StoreLocator] -->

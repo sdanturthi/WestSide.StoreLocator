@@ -1,0 +1,6 @@
+com\Westside\TestCases\HomePageTest.class
+com\Westside\Utilities\XLUtils.class
+com\Westside\PageObjects\HomePage.class
+com\Westside\TestCases\BaseClass.class
+com\Westside\Utilities\ReadConfig.class
+com\Westside\PageObjects\StoreLocator.class
